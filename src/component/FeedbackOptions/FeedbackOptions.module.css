@@ -1,0 +1,39 @@
+.feedback__btns {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  text-transform: capitalize;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px soled black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  position: relative;
+  top: 5px;
+  transform: scale(1.05);
+}
+
+.btn:nth-child(1) {
+  background-color: rgb(67, 231, 67);
+}
+
+.btn:nth-child(2) {
+  background-color: rgb(211, 155, 52);
+}
+
+.btn:nth-child(3) {
+  background-color: rgb(238, 44, 44);
+}

@@ -1,0 +1,24 @@
+.stat {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.good {
+}
+
+.neutral {
+}
+
+.bad {
+  margin-bottom: 40px;
+}
+
+.total {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.positive {
+  font-weight: 700;
+  font-size: 22px;
+}
